@@ -81,10 +81,10 @@
 ## Resources
 
 * [Arduino core for ESP8266 WiFi chip](https://github.com/esp8266/Arduino)
-* [MQTT (MQ Telemetry Transport)]( http://mqtt.org/)
-* [Arduino Client for MQTT]( http://pubsubclient.knolleary.net/)
+* [MQTT (MQ Telemetry Transport)](http://mqtt.org/)
+* [Arduino Client for MQTT](http://pubsubclient.knolleary.net/)
 
 ## Related Toolkits
 
-* [Blynk]( http://www.blynk.cc/)
-* [Node-RED]( http://nodered.org/)
+* [Blynk](http://www.blynk.cc/)
+* [Node-RED](http://nodered.org/)
