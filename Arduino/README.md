@@ -28,9 +28,12 @@
 
 1. Connect a button, a LED, two resistors (10k ohm and 1k ohm) and jumper wires on your breadboard as shown in the diagram![layout.png](layout.png)
 2. Install [the FTDI VCP driver](http://www.ftdichip.com/Drivers/VCP.htm) if needed
-  * Windows (7, 8 or 10): install
-  * MacOS (Yosemite or earlier): install
-  * MacOS (El Capitan): **don't** install
+  * Windows 7, 8 or 10: install
+  * MacOS 10.9 (Mavericks) and 10.10 (Yosemite): install and disable the Apple-provided driver by  
+    `$ cd /System/Library/Extensions/IOUSBFamily.kext/Contents/Plugins`  
+    `$ sudo mv AppleUSBFTDI.kext AppleUSBFTDI.disabled`  
+    `$ sudo touch /System/Library/Extensions`
+  * MacOS 10.11 (El Capitan): **DON'T** install
 3. Select your serial port number under the **Tools** > **Port** menu (e.g. COM3 on Windows, /dev/cu.usbmodem1234 on MacOS).
 4. Navigate **File** > **Examples** > **02.Digital** > **Button**
 5. Replace `buttonPin = 2` with `buttonPin = 12`, then `ledPin = 13` with `ledPin = 14`
