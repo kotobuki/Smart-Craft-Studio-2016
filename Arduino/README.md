@@ -47,7 +47,7 @@
 
 * A Wi-Fi (802.11 b/g/n) wireless modem is integrated
 * The processor is faster and has much memory space
-3.3V, instead of 5V
+* 3.3V, instead of 5V
 * Limited number of pins
 * Some pins (i.e. D0) are used for special functions
 * Only one analog input (i.e. A0) and range is 0 - 1V, instead of 0 - 5V
