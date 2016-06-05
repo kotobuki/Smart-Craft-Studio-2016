@@ -29,7 +29,7 @@
 1. Connect a button, a LED, two resistors (10k ohm and 1k ohm) and jumper wires on your breadboard as shown in the diagram![layout.png](layout.png)
 2. Install [the FTDI VCP driver](http://www.ftdichip.com/Drivers/VCP.htm) if needed
   * Windows 7, 8 or 10: install
-  * MacOS 10.9 (Mavericks) and 10.10 (Yosemite): install and disable the Apple-provided driver by  
+  * MacOS 10.9 (Mavericks) and 10.10 (Yosemite): install and disable the Apple-provided driver by entering commands as follows  
     `$ cd /System/Library/Extensions/IOUSBFamily.kext/Contents/Plugins`  
     `$ sudo mv AppleUSBFTDI.kext AppleUSBFTDI.disabled`  
     `$ sudo touch /System/Library/Extensions`
