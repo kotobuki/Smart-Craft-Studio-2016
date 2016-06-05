@@ -28,14 +28,14 @@
   - has great resources especially for Linux based technologies and communities on the Internet
 - Let's think that we can use Raspberry Pi **AND** Arduino, instead of Raspberry Pi **VS.** Arduino
 
-| | Arduino Uno | Raspberry Pi 2 Model B |
+| | [Arduino Uno](https://www.arduino.cc/en/Main/ArduinoBoardUno) | [Raspberry Pi 2 Model B](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/) |
 |:--|:--|:--|
 | Processor | ATmega328P (8 bit) | ARM Cortex-A7 CPU (32 bit, quad-core) |
 | Clock speed | 16 MHz | 900 MHz |
 | OS | - | Raspbian, Windows 10 IoT Core and so on |
 | RAM | 2 KB | 1 GB |
-| Digital I/O Pins | 14 | 40 |
-| PWM Digital I/O Pins | 6 | 2 |
+| Digital I/O Pins | 14 | 28 |
+| PWM Digital I/O Pins | 6 | 2 (1 is shared with the audio output) |
 | Analog Input Pins | 6 | - |
 | HDMI port | - | 1 |
 | Ethernet port | - | 1 |
