@@ -10,9 +10,10 @@
 
 ## Preparation
 
-- Set a unique host name to identify your RasPi by name
-- Enable Samba to edit files from your PC
-- Download and extract Arduino IDE 1.6.9 for **Linux ARM (experimental)** from [the official website](https://www.arduino.cc/en/Main/Software)
+- [ ] Set a unique host name to identify your RasPi by name
+- [ ] Enable Samba to edit files from your PC
+- [ ] Install TightVNC Server by `$ sudo apt-get install tightvncserver` then launch by `$ vncserver`
+- [ ] Download and extract Arduino IDE 1.6.9 for **Linux ARM (experimental)** from [the official website](https://www.arduino.cc/en/Main/Software)
 
 ## What's the Difference between Arduino and Raspberry Pi?
 
