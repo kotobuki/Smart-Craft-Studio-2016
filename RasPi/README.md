@@ -3,15 +3,15 @@
 ## Materials
 
 - Raspberry Pi 2 Model B: 1
-- USB Wi-Fi module (e.g. ): 1
-- SD card with [Raspbian Jessie (May 2016)](https://www.raspberrypi.org/downloads/raspbian/) installed: 1
+- USB Wi-Fi module: 1
+- micro SD card with [Raspbian Jessie (May 2016)](https://www.raspberrypi.org/downloads/raspbian/) installed: 1
 - Arduino Uno: 1
 - USB cable (A to B): 1
 - Grove - Starter Kit v3: 1
 - USB microphone: 1
 - USB powered speaker: 1
 - Tactile switch: 1
-- Jumper wires: 2
+- Jumper wires (Female to male): 2
 
 ## Preparation
 
