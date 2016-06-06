@@ -7,6 +7,7 @@
 - SD card with [Raspbian Jessie (May 2016)](https://www.raspberrypi.org/downloads/raspbian/) installed: 1
 - Arduino Uno: 1
 - USB cable (A to B): 1
+- Grove - Starter Kit v3: 1
 
 ## Preparation
 
