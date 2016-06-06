@@ -44,7 +44,7 @@
 9. Replace `SSID` and `passpasspass` in the 16th line with yours (e.g. `WiFiMulti.addAP("my_ssid", "my_pass");`)
 10. Open a **Serial Monitor** by going **Tools** > **Serial Monitor**
 11. Change the baud rate from 9600 bps (default) to 115200 bps
-12. Hit the Upload button on your Arduino IDE to start uploading
+12. Hit the Upload button on your Arduino IDE to start uploading (**on Windows, please keep closing the Serial Monitor while uploading, or uploaded code might be corrupted**)
 13. If you see and IP address, that means your ESP8266 is connected to your WiFi network successfully!
 
 ## How ESP8266 Is Different from Arduino Uno?
