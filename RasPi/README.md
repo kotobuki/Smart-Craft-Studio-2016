@@ -57,6 +57,24 @@
     - Install fswebcam with `sudo apt-get install fswebcam`
     - Try taking a picture with `fswebcam image.jpg`
 
+## Try
+
+1. Attach a Grove Base Board to your Arduino Uno
+2. Connect Grove - Button to D2
+3. Connect the Arduino Uno to your Raspberry Pi
+4. Navigate to **StateChangeDetection** by going **Examples** > **02.Digital**
+5. Comment out two lines in `loop()` as follows  
+   `//      Serial.print("number of button pushes:  ");`  
+   `//      Serial.println(buttonPushCounter);`
+6. Confirm with Serial Monitor
+7. Play with Node-RED
+  - Point your web browser to [Make a Web Request for the Maker Channel at IFTTT](http://flows.nodered.org/flow/f8bda419efca37dc0366c47cdadf40ad)
+  - Point your web browser to team-n.local:1880 (e.g. team-a.local:1880)
+  - Try pasting from the clipboard
+  - Replace API_KEY with your key
+  - Deploy the flow and evaluate
+  - Modify the flow to get inputs from Arduino Uno via a Serial node
+
 ## References
 
 - [The comprehensive Raspberry Pi GPIO Pinout guide](http://pinout.xyz/)
