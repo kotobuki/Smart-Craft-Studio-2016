@@ -8,6 +8,10 @@
 - Arduino Uno: 1
 - USB cable (A to B): 1
 - Grove - Starter Kit v3: 1
+- USB microphone: 1
+- USB powered speaker: 1
+- Tactile switch: 1
+- Jumper wires: 2
 
 ## Preparation
 
@@ -60,10 +64,12 @@
 
 ## Try
 
+### Connecting Raspberry Pi and Arduino Uno with Node-RED
+
 1. Attach a Grove Base Board to your Arduino Uno
 2. Connect Grove - Button to D2
 3. Connect the Arduino Uno to your Raspberry Pi
-4. Navigate to **StateChangeDetection** by going **Examples** > **02.Digital**
+4. Launch your Arduino IDE on your Raspberry Pi and Navigate to: **Examples** > **02.Digital** > **StateChangeDetection**
 5. Comment out two lines in `loop()` as follows  
    `//      Serial.print("number of button pushes:  ");`  
    `//      Serial.println(buttonPushCounter);`
@@ -75,6 +81,13 @@
   - Replace API_KEY with your key
   - Deploy the flow and evaluate
   - Modify the flow to get inputs from Arduino Uno via a Serial node
+
+### Make your AlexaPi
+
+1. Point your web browser to https://github.com/sammachin/AlexaPi
+2. Follow the instructions in the README
+
+The video, [Installing Alexa Voice Service to Raspberry Pi](https://youtu.be/frH9HaQTFL8?t=3m40s) by Novaspirit Tech, is also helpful for obtaing a set of credentials from Amazon to use the Alexa Voice service at amazon.com. However, [the example by Novaspirit Tech](https://github.com/novaspirit/AlexaPi) mentioned in the video is a little bit outdated, so use the original example (i.e. Sam Machin's).
 
 ## References
 
