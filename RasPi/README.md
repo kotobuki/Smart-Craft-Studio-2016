@@ -10,10 +10,11 @@
 
 ## Preparation
 
-- [ ] Set a unique host name to identify your RasPi by name
-- [ ] Enable Samba to edit files from your PC
-- [ ] Install TightVNC Server by `$ sudo apt-get install tightvncserver` then launch by `$ vncserver`
-- [ ] Download and extract Arduino IDE 1.6.9 for **Linux ARM (experimental)** from [the official website](https://www.arduino.cc/en/Main/Software)
+- [x] Set a unique host name to identify your RasPi by name (e.g. team-a, team-b, team-c...)
+- [x] Enable Samba to edit files from your PC
+- [x] Install TightVNC Server by entering `$ sudo apt-get install tightvncserver` then launch by entering `$ vncserver`
+- [x] Download and extract Arduino IDE 1.6.9 for **Linux ARM (experimental)** from [the official website](https://www.arduino.cc/en/Main/Software)
+- [ ] Download a [VNC Viewer](https://www.realvnc.com/download/) (Windows only)
 
 ## What's the Difference between Arduino and Raspberry Pi?
 
