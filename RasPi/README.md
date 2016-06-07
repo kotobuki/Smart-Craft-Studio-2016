@@ -86,6 +86,8 @@
 
 1. Point your web browser to https://github.com/sammachin/AlexaPi
 2. Follow the instructions in the README
+  - You have to do `sudo ./setup.sh` insted of `./setup.sh` if you are logging in as pi instead of root, otherwise the setup file can't execute steps needed
+  - If you are accessing from a PC, you have to access to the IP address of your Raspberry Pi (e.g. team-a.local:5000) instead of localhost:5000 (it's only valid if you are accessing from a browser running on your Raspberry Pi) 
 
 The video, [Installing Alexa Voice Service to Raspberry Pi](https://youtu.be/frH9HaQTFL8?t=3m40s) by Novaspirit Tech, is also helpful for obtaing a set of credentials from Amazon to use the Alexa Voice service at amazon.com. However, [the example by Novaspirit Tech](https://github.com/novaspirit/AlexaPi) mentioned in the video is a little bit outdated, so use the original example (i.e. Sam Machin's).
 
