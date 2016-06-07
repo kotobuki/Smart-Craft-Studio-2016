@@ -102,3 +102,4 @@ The video, [Installing Alexa Voice Service to Raspberry Pi](https://youtu.be/frH
 - [ELECOM UCAM-C0220FB](http://www2.elecom.co.jp/multimedia/pc-camera/ucam-c0220fb/)
 - [Node-RED | Raspberry Pi](http://nodered.org/docs/hardware/raspberrypi)
 - [Raspberry Pi - Arduino Serial Communication](http://www.instructables.com/id/Raspberry-Pi-Arduino-Serial-Communication/) by AdrieSentosa
+- [ApplePi-Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
