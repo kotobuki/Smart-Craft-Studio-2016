@@ -20,6 +20,7 @@
 - [x] Install TightVNC Server by entering `$ sudo apt-get install tightvncserver` then launch by entering `$ vncserver`
 - [x] Download and extract Arduino IDE 1.6.9 for **Linux ARM (experimental)** from [the official website](https://www.arduino.cc/en/Main/Software)
 - [ ] Download a [VNC Viewer](https://www.realvnc.com/download/) (Windows only)
+- [ ] Set up a terminal for SSH access (see [SSH USING WINDOWS](https://www.raspberrypi.org/documentation/remote-access/ssh/windows.md)) (Windows only)
 
 ## What's the Difference between Arduino and Raspberry Pi?
 
