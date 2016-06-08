@@ -21,6 +21,7 @@
 - [x] Download and extract Arduino IDE 1.6.9 for **Linux ARM (experimental)** from [the official website](https://www.arduino.cc/en/Main/Software)
 - [ ] Download a [VNC Viewer](https://www.realvnc.com/download/) (Windows only)
 - [ ] Set up a terminal for SSH access (see [SSH USING WINDOWS](https://www.raspberrypi.org/documentation/remote-access/ssh/windows.md)) (Windows only)
+- [ ] Download a network scanner app such as [Fing - Network Scanner](https://itunes.apple.com/us/app/id430921107) to find connected devices (optional)
 
 ## What's the Difference between Arduino and Raspberry Pi?
 
@@ -91,6 +92,8 @@
   - If you are accessing from a PC, you have to access to the IP address of your Raspberry Pi (e.g. team-a.local:5000) instead of localhost:5000 (it's only valid if you are accessing from a browser running on your Raspberry Pi) 
 
 The video, [Installing Alexa Voice Service to Raspberry Pi](https://youtu.be/frH9HaQTFL8?t=3m40s) by Novaspirit Tech, is also helpful for obtaing a set of credentials from Amazon to use the Alexa Voice service at amazon.com. However, [the example by Novaspirit Tech](https://github.com/novaspirit/AlexaPi) mentioned in the video is a little bit outdated, so use the original example (i.e. Sam Machin's).
+
+![push to make button](push_to_make_button.png)
 
 ## References
 
