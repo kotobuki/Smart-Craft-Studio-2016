@@ -2,7 +2,7 @@
 
 ## Required Materials
 
-* [ ] [ESP-WROOM-02 development board (with pin sockets)](https://www.switch-science.com/catalog/2652/): 1
+* [ ] [ESPr Developer (with pin sockets)](https://www.switch-science.com/catalog/2652/): 1
 * [ ] USB cable (A to Micro B): 1
 * [ ] Breadboard: 1
 * [ ] Jumper wires: as much as is sufficient
@@ -24,7 +24,7 @@
 9. Look for ArduinoJson. Click on that entry, then select Install.
 10. Congratulations, your environment is now ready to play with ESP8266!
 
-## Test your Environment (with your ESP-WROOM-02 development board)
+## Test your Environment (with your ESPr Developer)
 
 1. Connect a button, a LED, two resistors (10k ohm and 1k ohm) and jumper wires on your breadboard as shown in the diagram  
    ![layout.png](layout.png)
